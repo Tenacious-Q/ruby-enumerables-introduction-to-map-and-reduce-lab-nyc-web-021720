@@ -2,9 +2,9 @@
 def map_to_negativize(array)
   # returns an array with all values made negative
   # negativized_array = [] --- New array not necessary
-  # note: in the example answers, they actually DID use new arrays 
-  # SEE COMMENTS AT THE BOTTOM 
-    
+  # note: in the example answers, they actually DID use new arrays
+  # SEE COMMENTS AT THE BOTTOM
+
   i = 0
   while i < array.length
     array[i] = array[i] * -1
@@ -65,7 +65,7 @@ def reduce_to_any_true(source_array)
     i += 1
   end
   false
-end 
+end
 
 #***************************************************************
 =begin     ***OFFICIAL SOLUCTIONS***
@@ -79,7 +79,7 @@ def map_to_negativize(source_array)
   end
   return new
 end
- 
+
 def map_to_no_change(source_array)
   new = []
   i = 0
@@ -89,7 +89,7 @@ def map_to_no_change(source_array)
   end
   return new
 end
- 
+
 def map_to_double(source_array)
   new = []
   i = 0
@@ -99,7 +99,7 @@ def map_to_double(source_array)
   end
   return new
 end
- 
+
 def map_to_square(source_array)
   new = []
   i = 0
@@ -110,4 +110,4 @@ def map_to_square(source_array)
   return new
 end
 
-=end 
+=end
